@@ -34,3 +34,22 @@ def post_recommendations(user: UserInputModel):
     return {
         "recommendations": sorted(recommendations, key=lambda x: -x['Z_Cutoff'])[:10]
     }
+
+@app.post("/alternatives/")
+def get_alternatives(user: UserInputModel):
+    engine = UniversityCourseExpertSystem('cleaned_cutoff.csv')
+    engine.reset()
+    
+    # First run the main recommendation logic
+    engine.declare(UserInput(stream=user.stream, district=user.district, zscore=user.zscore))
+    engine.run()
+    
+    # Get alternative recommendations using your existing method
+    alternatives = engine.AlternativeRecommendations()
+    
+    if not alternatives:
+        raise HTTPException(status_code=404, detail="No alternative solutions found.")
+    
+    return {
+        "alternatives": alternatives
+    }

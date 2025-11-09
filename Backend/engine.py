@@ -25,7 +25,7 @@ class UniversityCourseExpertSystem(KnowledgeEngine):
             self.df['stream'].str.lower().str.contains(stream.lower().strip()) &
             (self.df['district'].str.lower() == district.lower())
         ]
-        for _, row in df_filtered.iterrows():
+        for index, row in df_filtered.iterrows():
             cutoff_raw = row['z_score']
             # Handle 'NQC' rows
             if isinstance(cutoff_raw, str) and cutoff_raw.strip().upper() == 'NQC':
@@ -35,19 +35,35 @@ class UniversityCourseExpertSystem(KnowledgeEngine):
             except Exception:
                 continue
             confidence = self.calculate_confidence(zscore, cutoff)
+
+            # ADD THIS RULE INFO PART
+            rule_info = {
+                'rule_id': f"Rule_{index}",
+                'conditions': {
+                    'stream_match': f"Stream = '{row.get('stream', 'N/A')}'",
+                    'district_match': f"District = '{row.get('district', 'N/A')}'",
+                    'zscore_requirement': f"Z-Score >= {cutoff}"
+                },
+                'csv_row_index': index,
+                'rule_description': f"IF Stream contains '{stream}' AND District = '{district}' AND Z-Score >= {cutoff} THEN Recommend '{row['course_name']}'"
+            }
+
+
             if zscore <= cutoff:
                 self.LowestPossibleRecommendations.append({
                     'Course': row['course_name'],
                     'University': row['university'],
                     'Z_Cutoff': cutoff,
-                    'Confidence': confidence
+                    'Confidence': confidence,
+                    'FiredRule': rule_info
                 })
             else:
                 self.HighestPossibleRecommendations.append({
                     'Course': row['course_name'],
                     'University': row['university'],
                     'Z_Cutoff': cutoff,
-                    'Confidence': confidence
+                    'Confidence': confidence,
+                    'FiredRule': rule_info
                 })
 
     def calculate_confidence(self, user_zscore, cutoff):
@@ -73,3 +89,9 @@ class UniversityCourseExpertSystem(KnowledgeEngine):
     # This method is for FastAPI: returns list of top recommendations
     def get_top_recommendations(self, topn=10):
         return sorted(self.HighestPossibleRecommendations, key=lambda x: -x['Z_Cutoff'])[:topn]
+    
+    #Alternative Recommendations
+    def AlternativeRecommendations(self , topn=4):   
+        precommendations = sorted(self.HighestPossibleRecommendations, key=lambda x: -x['Z_Cutoff'])[10:]
+        lprecommendations = sorted(self.LowestPossibleRecommendations, key=lambda x: -x['Z_Cutoff'])[:topn]
+        return precommendations + lprecommendations
