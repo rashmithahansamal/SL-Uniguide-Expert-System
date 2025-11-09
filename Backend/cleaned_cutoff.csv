@@ -1,0 +1,111 @@
+Course_Name,University,District,Z_Score,Stream
+PHYSICAL SCIENCE (PHY.SC),University of Colombo,Colombo,1.4028,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Colombo,Gampaha,1.4027,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Sri Jayewardenepura,Colombo,1.2351,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Sri Jayewardenepura,Gampaha,1.2322,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Kelaniya,Colombo,1.1400,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Kelaniya,Gampaha,1.1415,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Peradeniya,Colombo,1.2890,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Peradeniya,Gampaha,1.2924,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Jaffna  Sri Lanka,Colombo,0.9527,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Jaffna  Sri Lanka,Gampaha,0.8866,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Ruhuna,Colombo,1.0667,Physical
+PHYSICAL SCIENCE (PHY.SC),University of Ruhuna,Gampaha,1.0668,Physical
+APPLIED SCIENCES (PHY.SC),Sabaragamuwa University of Sri Lanka,Colombo,1.0350,Physical
+APPLIED SCIENCES (PHY.SC),Sabaragamuwa University of Sri Lanka,Gampaha,1.0350,Physical
+APPLIED SCIENCES (PHY.SC),Rajarata University of Sri Lanka,Colombo,0.9673,Physical
+APPLIED SCIENCES (PHY.SC),Rajarata University of Sri Lanka,Gampaha,0.9703,Physical
+APPLIED SCIENCES (PHY.SC),Wayamba University of Sri Lanka,Colombo,0.8808,Physical
+APPLIED SCIENCES (PHY.SC),Wayamba University of Sri Lanka,Gampaha,0.8600,Physical
+SURVEYING SCIENCES,Sabaragamuwa University of Sri Lanka,Colombo,1.0726,Physical
+SURVEYING SCIENCES,Sabaragamuwa University of Sri Lanka,Gampaha,1.0307,Physical
+ENGINEERING,University of Moratuwa,Colombo,2.0708,Physical
+ENGINEERING,University of Moratuwa,Gampaha,2.0715,Physical
+ENGINEERING,University of Peradeniya,Colombo,1.8993,Physical
+ENGINEERING,University of Peradeniya,Gampaha,1.9004,Physical
+ENGINEERING,University of Sri Jayewardenepura,Colombo,1.8173,Physical
+ENGINEERING,University of Sri Jayewardenepura,Gampaha,1.8238,Physical
+ENGINEERING,University of Jaffna,Colombo,NQC,Physical
+ENGINEERING,University of Jaffna,Gampaha,1.5419,Physical
+ENGINEERING,University of Ruhuna,Colombo,1.7896,Physical
+ENGINEERING,University of Ruhuna,Gampaha,1.6191,Physical
+ENGINEERING,South Eastern University of Sri Lanka,Colombo,NQC,Physical
+ENGINEERING,South Eastern University of Sri Lanka,Gampaha,NQC,Physical
+ENGINEERING TM,University of Moratuwa,Colombo,1.6254,Physical
+ENGINEERING TM,University of Moratuwa,Gampaha,1.5573,Physical
+ENGINEERING EM,University of Moratuwa,Colombo,1.6128,Physical
+ENGINEERING EM,University of Moratuwa,Gampaha,1.5230,Physical
+# ARCHITECTURE,University of Moratuwa,Colombo,1.1819,Physical | Other
+# ARCHITECTURE,University of Moratuwa,Gampaha,1.0005,Physical | Other
+# LANDSCAPE ARCHITECTURE,University of Moratuwa,Colombo,0.3447,Physical | Other
+# LANDSCAPE ARCHITECTURE,University of Moratuwa,Gampaha,0.4966,Physical | Other
+# FASHION DESIGN & PRODUCT DEVELOPMENT,University of Moratuwa,Colombo,0.5674,Physical | Other
+# FASHION DESIGN & PRODUCT DEVELOPMENT,University of Moratuwa,Gampaha,0.1600,Physical | Other
+INFORMATION TECHNOLOGY (IT),University of Moratuwa,Colombo,1.6730,Physical | IT
+INFORMATION TECHNOLOGY (IT),University of Moratuwa,Gampaha,1.5516,Physical | IT
+INFORMATION TECHNOLOGY & MANAGEMENT (MIT),University of Kelaniya,Colombo,1.4223,Physical | IT
+INFORMATION TECHNOLOGY & MANAGEMENT (MIT),University of Kelaniya,Gampaha,1.4152,Physical | IT
+FACILITIES MANAGEMENT,University of Moratuwa,Colombo,1.5279,Physical | Other
+FACILITIES MANAGEMENT,University of Moratuwa,Gampaha,1.4646,Physical | Other
+TRANSPORT & LOGISTICS MANAGEMENT,University of Moratuwa,Colombo,1.7608,Physical 
+TRANSPORT & LOGISTICS MANAGEMENT,University of Moratuwa,Gampaha,1.6644,Physical
+BUSINESS SCIENCE,University of Moratuwa,Colombo,1.9302,Physical | Other
+BUSINESS SCIENCE,University of Moratuwa,Gampaha,1.8007,Physical | Other
+FINANCIAL MATHEMATICS AND INDUSTRIAL STATISTICS,University of Ruhuna,Colombo,1.2946,Physical
+FINANCIAL MATHEMATICS AND INDUSTRIAL STATISTICS,University of Ruhuna,Gampaha,1.2724,Physical
+MATHEMATICAL FINANCE,University of Colombo,Colombo,1.4991,Physical
+MATHEMATICAL FINANCE,University of Colombo,Gampaha,1.4250,Physical
+ARTIFICIAL INTELLIGENCE,University of Moratuwa,Colombo,2.2536,Physical | IT
+ARTIFICIAL INTELLIGENCE,University of Moratuwa,Gampaha,2.3053,Physical | IT
+INFORMATION AND COMMUNICATION TECHNOLOGY (ICT),University of Colombo,Colombo,1.8860,Physical | IT
+INFORMATION AND COMMUNICATION TECHNOLOGY (ICT),University of Colombo,Gampaha,1.9190,Physical | IT
+INFORMATION AND COMMUNICATION TECHNOLOGY (ICT),University of Sri Jayewardenepura,Colombo,2.0626,Physical | IT
+INFORMATION AND COMMUNICATION TECHNOLOGY (ICT),University of Sri Jayewardenepura,Gampaha,2.0708,Physical | IT
+SOFTWARE ENGINEERING,University of Kelaniya,Colombo,1.5391,Physical | IT
+SOFTWARE ENGINEERING,University of Kelaniya,Gampaha,1.5402,Physical | IT
+SOFTWARE ENGINEERING,University of Sri Jayewardenepura,Colombo,1.5155,Physical | IT
+SOFTWARE ENGINEERING,University of Sri Jayewardenepura,Gampaha,1.5143,Physical | IT
+FINANCIAL MATHEMATICS AND INDUSTRIAL STATISTICS,University of Ruhuna,Colombo,1.2946,Physical
+FINANCIAL MATHEMATICS AND INDUSTRIAL STATISTICS,University of Ruhuna,Gampaha,1.2724,Physical
+STATISTICS & OPERATIONS RESEARCH,University of Peradeniya,Colombo,1.4013,Physical
+STATISTICS & OPERATIONS RESEARCH,University of Peradeniya,Gampaha,1.4110,Physical
+INFORMATION SYSTEMS,University of Colombo,Colombo,1.7906,Physical | IT
+INFORMATION SYSTEMS,University of Colombo,Gampaha,1.7959,Physical | IT
+INFORMATION SYSTEMS,Sabaragamuwa University of Sri Lanka,Colombo,1.4087,Physical | IT
+INFORMATION SYSTEMS,Sabaragamuwa University of Sri Lanka,Gampaha,1.3329,Physical | IT
+COMPUTER SCIENCE,University of Colombo,Colombo,1.6607,Physical | IT
+COMPUTER SCIENCE,University of Colombo,Gampaha,1.6646,Physical | IT
+COMPUTER SCIENCE,University of Sri Jayewardenepura,Colombo,1.5831,Physical | IT
+COMPUTER SCIENCE,University of Sri Jayewardenepura,Gampaha,1.5804,Physical | IT
+COMPUTER SCIENCE,University of Kelaniya,Colombo,1.5846,Physical | IT
+COMPUTER SCIENCE,University of Kelaniya,Gampaha,1.6109,Physical | IT
+COMPUTER SCIENCE,University of Jaffna,Colombo,1.3958,Physical | IT
+COMPUTER SCIENCE,University of Jaffna,Gampaha,1.1987,Physical | IT
+COMPUTER SCIENCE,University of Ruhuna,Colombo,1.4176,Physical | IT
+COMPUTER SCIENCE,University of Ruhuna,Gampaha,1.4118,Physical | IT
+BUSINESS INFORMATION SYSTEMS [Physical Science Stream],University of Sri Jayewardenepura,Colombo,1.6391,Physical | IT
+BUSINESS INFORMATION SYSTEMS [Physical Science Stream],University of Sri Jayewardenepura,Gampaha,1.6159,Physical | IT
+INFORMATION SYSTEMS [Physical Science Stream],Sabaragamuwa University of Sri Lanka,Colombo,1.5081,Physical | IT
+INFORMATION SYSTEMS [Physical Science Stream],Sabaragamuwa University of Sri Lanka,Gampaha,1.3287,Physical | IT
+COMPUTER SCIENCE & TECHNOLOGY,Uva Wellassa University of Sri Lanka,Colombo,0.9828,Physical | IT
+COMPUTER SCIENCE & TECHNOLOGY,Uva Wellassa University of Sri Lanka,Gampaha,0.9284,Physical | IT
+INDUSTRIAL INFORMATION TECHNOLOGY,Uva Wellassa University of Sri Lanka,Colombo,1.2856,Physical | IT | Other
+INDUSTRIAL INFORMATION TECHNOLOGY,Uva Wellassa University of Sri Lanka,Gampaha,1.2937,Physical | IT | Other
+SCIENCE & TECHNOLOGY,Uva Wellassa University of Sri Lanka,Colombo,0.4888,Physical | IT | Other
+SCIENCE & TECHNOLOGY,Uva Wellassa University of Sri Lanka,Gampaha,0.5475,Physical | IT | Other
+MINERAL RESOURCES AND TECHNOLOGY,Uva Wellassa University of Sri Lanka,Colombo,0.9133,Physical | IT | Other
+MINERAL RESOURCES AND TECHNOLOGY,Uva Wellassa University of Sri Lanka,Gampaha,0.9126,Physical | IT | Other
+POLYMER SCIENCE & TECHNOLOGY,University of Sri Jayewardenepura,Colombo,1.4660,Physical | IT | Other
+POLYMER SCIENCE & TECHNOLOGY,University of Sri Jayewardenepura,Gampaha,1.4979,Physical | IT | Other
+DATA SCIENCE,Sabaragamuwa University of Sri Lanka,Colombo,1.3870,Physical | IT
+DATA SCIENCE,Sabaragamuwa University of Sri Lanka,Gampaha,1.3814,Physical | IT
+INFORMATION COMMUNICATION TECHNOLOGY,University of Vavuniya Sri Lanka,Colombo,1.1583,Physical | IT
+INFORMATION COMMUNICATION TECHNOLOGY,University of Vavuniya Sri Lanka,Gampaha,1.1345,Physical | IT
+INFORMATION COMMUNICATION TECHNOLOGY,Rajarata University of Sri Lanka,Colombo,1.1323,Physical | IT
+INFORMATION COMMUNICATION TECHNOLOGY,Rajarata University of Sri Lanka,Gampaha,1.0597,Physical | IT
+INFORMATION COMMUNICATION,Uva Wellassa University of Sri Lanka,Colombo,1.3093,Physical | IT
+INFORMATION COMMUNICATION,Uva Wellassa University of Sri Lanka,Gampaha,1.0387,Physical | IT
+PHYSICAL SCIENCE-ICT,University of Sri Jayewardenepura,Colombo,1.4149,Physical | IT
+PHYSICAL SCIENCE-ICT,University of Sri Jayewardenepura,Gampaha,1.4277,Physical | IT
+PHYSICAL SCIENCE-ICT,University of Kelaniya,Colombo,1.3629,Physical | IT
+PHYSICAL SCIENCE-ICT,University of Kelaniya,Gampaha,1.1660,Physical | IT
