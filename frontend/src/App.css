@@ -236,6 +236,36 @@
   font-weight: 600;
 }
 
+/* UGC Notice Styles */
+.ugc-notice {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 249, 250, 0.95));
+  backdrop-filter: blur(10px);
+  border-left: 4px solid #A94442;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(169, 68, 66, 0.2);
+  border: 1px solid rgba(169, 68, 66, 0.3);
+}
+
+.ugc-notice-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  color: #A94442;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ugc-notice-text {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  text-align: justify;
+  font-weight: 500;
+}
+
 .recommendations-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -294,6 +324,17 @@
 }
 
 .cutoff-info strong {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.unicode-info {
+  margin: 0.5rem 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+}
+
+.unicode-info strong {
   color: #FFFFFF;
   font-weight: 700;
 }
@@ -432,12 +473,14 @@
 
 /* Alternative card icon styling */
 .alternative-card .university-name svg,
-.alternative-card .cutoff-info svg {
+.alternative-card .cutoff-info svg,
+.alternative-card .unicode-info svg {
   color: #8B4242 !important;
 }
 
 .alternative-card:hover .university-name svg,
-.alternative-card:hover .cutoff-info svg {
+.alternative-card:hover .cutoff-info svg,
+.alternative-card:hover .unicode-info svg {
   color: #A94442 !important;
 }
 

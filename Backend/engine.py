@@ -55,6 +55,7 @@ class UniversityCourseExpertSystem(KnowledgeEngine):
                     'University': row['university'],
                     'Z_Cutoff': cutoff,
                     'Confidence': confidence,
+                    'Unicode': row.get('unicode', 'N/A'),
                     'FiredRule': rule_info
                 })
             else:
@@ -63,24 +64,25 @@ class UniversityCourseExpertSystem(KnowledgeEngine):
                     'University': row['university'],
                     'Z_Cutoff': cutoff,
                     'Confidence': confidence,
+                    'Unicode': row.get('unicode', 'N/A'),
                     'FiredRule': rule_info
                 })
 
     def calculate_confidence(self, user_zscore, cutoff):
         margin = user_zscore - cutoff
-        base = 60.0
+        base = 50.0
         if margin >= 0.5:
-            bonus = 30
+            bonus = 35
         elif margin >= 0.3:
-            bonus = 25
+            bonus = 30
         elif margin >= 0.2:
-            bonus = 20
+            bonus = 25
         elif margin >= 0.1:
-            bonus = 15
+            bonus = 20
         elif margin >= 0.05:
-            bonus = 10
+            bonus = 15
         elif margin >= 0.0:
-            bonus = 5
+            bonus = 10
         else:
             bonus = 0
         confidence = base + bonus

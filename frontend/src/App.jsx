@@ -25,7 +25,8 @@ import {
   Assignment as AssignmentIcon,
   Bolt as BoltIcon,
   AccountBalance as UniversityIcon,
-  ExpandMore as ExpandMoreIcon
+  ExpandMore as ExpandMoreIcon,
+  Code as CodeIcon
 } from '@mui/icons-material';
 
 function App() {
@@ -48,7 +49,7 @@ function App() {
 
   // Stream options
   const streamOptions = [
-    "Physical", "Engineering Technology (ET)", "Bio Science", "Technology (IT)"
+    "Physical", "Engineering Technology (ET)", "Bio Science", "Technology (IT)", "Arts", "Commerce"
   ];
 
   // District options  
@@ -328,6 +329,19 @@ function App() {
               <TargetIcon sx={{ fontSize: 28, marginRight: 1, verticalAlign: 'middle', color: '#A94442' }} />
               Top Recommendations
             </h3>
+            
+            {/* UGC Requirements Notice */}
+            <div className="ugc-notice">
+              <div className="ugc-notice-header">
+                <InfoIcon sx={{ fontSize: 20, marginRight: 1, color: '#A94442' }} />
+                <strong>Important Notice</strong>
+              </div>
+              <p className="ugc-notice-text">
+                To apply for these recommended courses, you must fulfill the minimum requirements set by the 
+                University Grants Commission (UGC) of Sri Lanka. Please ensure you meet all subject requirements, 
+                minimum Z-score thresholds, and other eligibility criteria as specified by the UGC and respective universities.
+              </p>
+            </div>
             <div className="recommendations-grid">
               {recommendations.map((rec, idx) => (
                 <div key={idx} className="recommendation-card">
@@ -345,6 +359,10 @@ function App() {
                     <p className="cutoff-info">
                       <BarChartIcon sx={{ fontSize: 18, marginRight: 0.5, verticalAlign: 'middle', color: '#A94442' }} />
                       Z Cutoff: <strong>{rec.Z_Cutoff}</strong>
+                    </p>
+                    <p className="unicode-info">
+                      <CodeIcon sx={{ fontSize: 18, marginRight: 0.5, verticalAlign: 'middle', color: '#A94442' }} />
+                      Unicode: <strong>{rec.Unicode || 'N/A'}</strong>
                     </p>
                     
                     {/* Add Rule Information Section */}
@@ -412,6 +430,10 @@ function App() {
                     <p className="cutoff-info">
                       <BarChartIcon sx={{ fontSize: 18, marginRight: 0.5, verticalAlign: 'middle', color: '#A94442' }} />
                       Z Cutoff: <strong>{alt.Z_Cutoff}</strong>
+                    </p>
+                    <p className="unicode-info">
+                      <CodeIcon sx={{ fontSize: 18, marginRight: 0.5, verticalAlign: 'middle', color: '#A94442' }} />
+                      Unicode: <strong>{alt.Unicode || 'N/A'}</strong>
                     </p>
                     
                     {/* Add Rule Information Section for Alternatives */}
